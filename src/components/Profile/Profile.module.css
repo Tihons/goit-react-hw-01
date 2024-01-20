@@ -1,0 +1,33 @@
+.profile {
+    max-width: 370px;
+    margin-left: 50px;
+    padding-top: 20px;
+  
+    border: black 3px solid;
+    border-radius: 15px;
+  
+    overflow: hidden;
+  }
+  
+  .avatarBox {
+    margin: 0 auto;
+  
+    max-width: 250px;
+    padding: 40px;
+  
+    background-color: grey;
+    border-radius: 50%;
+  }
+  
+  .name {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+  }
+  .tag,
+  .location {
+    font-size: 20px;
+    text-align: center;
+    color: darkgray;
+  }
