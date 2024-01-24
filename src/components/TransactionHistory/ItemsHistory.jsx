@@ -1,4 +1,4 @@
-import css from './TransactionHistory.module.css';
+import css from './ItemsHistory.module.css';
 import { TransactionValue } from '../TransactionValue/TransactionValue';
 
 export const TransactionHistory = ({ transactions }) => {
