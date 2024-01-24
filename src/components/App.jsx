@@ -3,7 +3,7 @@ import userData from '../userData.json';
 import userDataFriends from '../userDataFriendItem.json';
 import userDataTransactions from '../userDataTransactions.json';
 import { Profile } from './Profile/Profile';
-import { Friends } from './Friends/FriendList';
+import { FriendList } from './FriendList/FriendList';
 import { TransactionHistory } from './TransactionHistory/ItemsHistory';
 
 export const App = () => {
@@ -19,7 +19,7 @@ export const App = () => {
       />
 
       <p className={css.task}>Task 2</p>
-      <Friends friends={userDataFriends} />
+      <FriendList friends={userDataFriends} />
 
       <p className={css.task}>Task 3</p>
       <TransactionHistory transactions={userDataTransactions} />
