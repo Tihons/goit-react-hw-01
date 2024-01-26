@@ -1,16 +1,16 @@
 import css from './App.module.css';
-import userData from '../userData.json';
-import userDataFriends from '../userDataFriendItem.json';
-import userDataTransactions from '../userDataTransactions.json';
-import { Profile } from './Profile/Profile';
-import { FriendList } from './FriendList/FriendList';
-import { TransactionHistory } from './TransactionHistory/ItemsHistory';
+// import userData from '../userData.json';
+// import userDataFriends from '../userDataFriendItem.json';
+// import userDataTransactions from '../userDataTransactions.json';
+// import { Profile } from './Profile/Profile';
+// import { FriendList } from './FriendList/FriendList';
+// import { TransactionHistory } from './TransactionHistory/ItemsHistory';
 
 export const App = () => {
   return (
     <div>
       <p className={css.task}>Task 1</p>
-      <Profile
+      {/* <Profile
         name={userData.username}
         tag={userData.tag}
         location={userData.location}
@@ -22,7 +22,7 @@ export const App = () => {
       <FriendList friends={userDataFriends} />
 
       <p className={css.task}>Task 3</p>
-      <TransactionHistory transactions={userDataTransactions} />
+      <TransactionHistory transactions={userDataTransactions} /> */}
     </div>
   );
 };
